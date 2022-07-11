@@ -1,0 +1,276 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* ----------------------------------navigation ---------------------------------------*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px;
+  align-items: center;
+  padding-top: 20px;
+}
+.nav-icon{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-icon a{
+  margin-left: 30px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #353519;
+  transition: 0.6s;
+  padding: 5px;
+  border-radius: 15px;
+}
+.nav-icon li{
+  list-style: none;
+}
+.nav-icon a:hover{
+  background-color: #353519;
+  color: white;
+}
+.nav-logo img{
+  width: 30px;
+  height: 30px;
+}
+.hero-section{
+  background-color: #ECEFF0;
+  width: 100%;
+  height: 100vh;
+}
+/* ------------------------------------------------main text------------------------------------- */
+.main-text{
+  text-align: center;
+  margin-top: 50px;
+  z-index: 2;
+  height: 55px;
+}
+.main-text h1{
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  line-height: 70px;;
+  letter-spacing: 10px;
+  font-family: 'DM Sans', sans-serif;
+}
+.sun-cloud{
+  position: relative;
+  right: 160px;
+  bottom: 40px;
+  text-shadow: 2px 2px;
+}
+.hero-image img{
+  position: relative;
+  top: 68px;
+   width: 500px;
+   height: 360px;
+}
+.hero-image{
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------------------------------lion parallax -------------------------------------*/
+.lion-parallax{
+  background-image: linear-gradient(rgba(136, 155, 156, 0.5) , rgba(136, 155, 156, 0.5)),url('lion parallax.svg');
+  background-attachment: fixed;
+  background-size:c cover;
+  margin-top: 5px;
+}
+.lion-parallax h1{
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  padding: 8%;
+  color: white;
+  margin: 0 0;
+  font-family: 'DM Sans', sans-serif;
+}
+/*--------------------------------------------- surashtra ---------------------------------- */
+.Saurashtra-section{
+  margin: 0 80px;
+}
+.Saurashtra{
+  display: inline-block;
+  width: 465px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 15px 15px;
+  background-size: cover;
+  background-position: center;
+
+}
+.Saurashtra p{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  background-color: #353519;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.Saurashtra1{
+  background-image: url('Gir.svg');
+}
+.Saurashtra2{
+  background-image: url('somanath.jpg');
+}
+.Saurashtra3{
+  background-image: url('blackduck.svg');
+}
+.Saurashtra4{
+  background-image: url('dwarka tample.jpg');
+}
+/* --------------------------------------------------camel parallax-------------------------------------- */
+.camel-parallax{
+  background-image: linear-gradient(rgba(136, 155, 156, 0.5) , rgba(136, 155, 156, 0.5)),url('camel parallax.svg');
+  background-attachment: fixed;
+  background-size:c cover;
+  margin-top: 5px;
+}
+.camel-parallax h1{
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  padding: 8%;
+  color: white;
+  margin: 0 0;
+  font-family: 'DM Sans', sans-serif;
+}
+/* -----------------------------------------------------kutch--------------------------------------- */
+.kutch1{
+  background-image: url('white desert.svg');
+}
+.kutch2{
+  background-image: url('dholavira.jpg');
+}
+.kutch3{
+  background-image: url('rann utsav.jpg');
+}
+.kutch{
+  margin: 0 95px;
+
+  width: 1010px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  background-size: cover;
+  background-position: center;
+}
+.kutch p{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  background-color: #353519;
+  border-radius: 5px;
+  font-weight: 500;
+}
+/* ------------------------------------------ghudkhor parallax------------------------------- */
+.ghudkhor-parallax{
+  background-image: linear-gradient(rgba(136, 155, 156, 0.5) , rgba(136, 155, 156, 0.5)),url('ghudkhor.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 5px;
+}
+.ghudkhor-parallax h1{
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  padding: 8%;
+  color: white;
+  margin: 0 0;
+  font-family: 'DM Sans', sans-serif;
+}
+/* --------------------------------------------------north gujrat---------------------------------- */
+.north1{
+  background-image: url('indroda.jpg');
+}
+.north2{
+  background-image: url('adalaj.svg');
+}
+.north3{
+  background-image: url('bear.svg');
+}
+.north4{
+  background-image: url('ghudkhor.jpg');
+}
+/* -------------------------------------------kankaria-parallax----------------------------------- */
+.kankaria-parallax{
+    background-image: linear-gradient(rgba(136, 155, 156, 0.5) , rgba(136, 155, 156, 0.5)),url('kankaria.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 5px;
+}
+.kankaria-parallax h1{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    padding: 8%;
+    color: white;
+    margin: 0 0;
+    font-family: 'DM Sans', sans-serif;
+}
+/* --------------------------------------------------central gujrat---------------------------------- */
+.cental1{
+  background-image: url('sabarmati ashram.jpg');
+}
+.cental2{
+  background-image: url('ratan mahal.svg');
+}
+.cental3{
+  background-image: url('laxmi vilas.jpg');
+}
+.cental4{
+  background-image: url('river front.jpg');
+}
+/* -----------------------------------------------dums-parallax---------------------------- */
+.dumas-parallax{
+    background-image: linear-gradient(rgba(136, 155, 156, 0.5) , rgba(136, 155, 156, 0.5)),url('dumas.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 5px;
+}
+.dumas-parallax h1{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    padding: 8%;
+    color: white;
+    margin: 0 0;
+    font-family: 'DM Sans', sans-serif;
+}
+/* --------------------------------------south gujrat--------------------------------------------- */
+.south1{
+  background-image: url('unity.webp');
+}
+.south2{
+  background-image: url('girmal.jpg');
+}
+.south3{
+  background-image: url('vansda.jpg');
+}
+.south4{
+  background-image: url('saputara.svg');
+}
+
+.arrow{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: 95%;
+}
+.Footer{
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+  color: #ECEFF0;
+  background-color: #353519;
+}
